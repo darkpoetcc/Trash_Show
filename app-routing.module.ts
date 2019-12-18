@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PanelshopJobComponent } from './components/panelshop-job/panelshop-job.component';
+import { PanelshopJobComponent } from './components/my-cva/my-cva.component';
 
 
 const routes: Routes = [
   {
-    path: 'panelshop', component: PanelshopJobComponent
+    path: 'mycva', component: MyCvaComponent
   },
 
 ];
